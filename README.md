@@ -29,7 +29,7 @@ O.S. Patching on Production Server :-->
 
 **Pre-requisite-comands :
 
-# Pre-Check commands####
+# Pre-Check commands ########################################################################
 
 yum list update
 mount -a   //used to automatically mount all filesystems mentioned in the /etc/fstab, Reads the /etc/fstab configuration file and to mount all listed filesystems
@@ -39,7 +39,7 @@ cat /etc/hosts >> /home/hosts_bkp29072025
 lsblk >> /home/lsblk_output_29072025 (Date)
 yum update -y
 
-# Post-Check Commands ####################################################################
+# Post-Check Commands ########################################################################
 
 mount -a    
 ls /lib/modules
@@ -58,7 +58,7 @@ cat /etc/hosts >> /home/hosts_bkp29072025
 df -hTP     //tocheck mount points
 cat /home/df_mountpoints.txt
 
-# Roll Back packages (if required) #########################################################
+# Roll Back packages (if required) ############################################################
 
 yum history|head -n 7
 yum history undo (ID No.)
