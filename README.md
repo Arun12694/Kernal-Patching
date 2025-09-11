@@ -4,17 +4,16 @@
 O.S. Patching on Production Server :-->	
 
 ***Pre-requisite-actions :	
-
-1> Take Aprovals from Stake Holder - Infra-Team
-2> Take Back-up of server before Patching - Infra-Team
-3> Take App/DB backup if any  - App/DB Team
-4> Take Pre-patch report of respective server  - Infra-Team
-5> Pre-checks and take necessary config file on local system or jump host  - Infra-Team
-6> Down the App /DB services on server	  - App/DB Team
-7> Restart server for sanity check  - Infra-Team
-8> Start OS patching  - Infra-Team
-9> do post check on OS end - Infra-Team
-10>Sanity Check for App / DB  - App/DB Team 
+Take Aprovals from Stake Holders	                                       - Infra-Team
+Take Back-up of server before Patching	                                 - Infra-Team
+Take App/DB backup if any	                                             - App/DB Team
+Take Pre-patch report of respective servers	                           - Infra-Team
+Pre-checks and take necessary config file on local system or jump host  - Infra-Team
+Down the App /DB services on server	                                    - App/DB Team
+Restart server for sanity check	                                       - Infra-Team
+Start OS patching	                                                      - Infra-Team
+do post check on OS end	                                                - Infra-Team
+Sanity Check for App / DB	                                             - App/DB Team 
 
    
 ## Roll-Back Plan	
